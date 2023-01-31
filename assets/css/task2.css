@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5C5C5C;
+}
+
+.row{
+    display: flex;
+}
+
+.col-4{
+    width: 33.33%;
+}
+.container{
+    width: 80%;
+    margin: 128px 200px;
+}
+
+
+.container .card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(75 68 68 / 86%) 0px 2px 4px 0px, rgb(24 25 25 / 85%) 0px 2px 16px 0px;
+}
+.container .card1 .img1 img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.container .card1 .text1{
+    width: 291px;
+  
+}
+
+.container .card1 .text1 span{
+    color: #C74385;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container .card1 .text1 h1{
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.container .card1 .text1 p{
+    line-height: 29px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #7b7777;
+}
+
+.container .card1 .footer1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #C74385;
+    align-items: center;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+.container .card1 .footer1 span{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.border1{
+    height: 100%;
+    background-color: rgb(252 248 251 / 10%);
+    width: 1px;
+
+}
+
+
+
+
+
+
+
+.container .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(75 68 68 / 86%) 0px 2px 4px 0px, rgb(24 25 25 / 85%) 0px 2px 16px 0px;
+}
+
+.container .card2 .img2 img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.container .card2 .text2{
+    width: 291px;
+  
+}
+
+.container .card2 .text2 span{
+    color: #FB510F;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container .card2 .text2 h1{
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.container .card2 .text2 p{
+    line-height: 29px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #7b7777;
+}
+
+.container .card2 .footer2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FB510F;
+    align-items: center;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+.container .card2 .footer2 span{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.border2{
+    height: 100%;
+    background-color: rgb(236 161 110 / 37%);
+    width: 1px;
+
+}
+
+
+
+
+
+
+
+
+.container .card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgb(75 68 68 / 86%) 0px 2px 4px 0px, rgb(24 25 25 / 85%) 0px 2px 16px 0px;
+}
+
+.container .card3 .img3 img{
+    width: 300px;
+    height: 170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+.container .card3 .text3{
+    width: 291px;
+  
+}
+
+.container .card3 .text3 span{
+    color: #1DB639;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.container .card3 .text3 h1{
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.container .card3 .text3 p{
+    line-height: 29px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #7b7777;
+}
+
+.container .card3 .footer3{
+    display: flex;
+    justify-content: space-around;
+    background-color:#1DB639;
+    align-items: center;
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    color: white;
+
+}
+.container .card3 .footer3 span{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+
+
+.border3{
+    height: 100%;
+    background-color: rgb(98 215 101 / 32%);
+    width: 1px;
+}
+

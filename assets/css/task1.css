@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B8B6B6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card {
+    padding: 53px;
+    height: 510px;
+    background-color: #43515A;
+    border-radius: 20px;
+    margin-top: 150px;
+    position: relative;
+}
+
+.container .card .main {
+    margin-top: 70px;
+    margin-left: 10px;
+    line-height: 50px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.container .card .main h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #C74385;
+}
+
+.container .card .main .p1 {
+    font-size: 25px;
+    color: #9ba7ae;
+    text-align: center;
+}
+
+.container .card .main .p2 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.container .card .footer {
+    height: 75px;
+    background-color: #C74385;
+    position: absolute;
+    bottom: 0;
+    width: 430px;
+    right: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.container .card .footer p {
+    font-size: 21px;
+    color: white;
+}
+
+.img-box {
+    height: 200px;
+    width: 200px;
+    border: 10px solid #C74385;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+    box-shadow: rgb(0 0 0 / 24%) 0px 7px 29px 0px;
+    transition: all 0.5s;
+}
+
+
+
+.img-box img {
+    border-radius: 100%;
+    width: 182px;
+    height: 182px;
+    position: absolute;
+}
+
+.card ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.card ul li {
+    list-style: none;
+    margin-left: 21px;
+    border-radius: 50%;
+    background-color: #C74385;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ul li a {
+    text-decoration: none;
+}
+
+.card ul li a i {
+    color: white;
+    font-size: 30px;
+}
+
